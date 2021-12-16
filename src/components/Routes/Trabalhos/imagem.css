@@ -1,0 +1,34 @@
+.imagem .itemWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+
+
+}
+
+.itemContainer {
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    margin-top: 3.125rem;
+    margin-bottom: 2rem;
+}
+
+.imagem .itemContainer h3 {
+    color: rgb(49, 48, 48);
+    font-size: 3rem;
+}
+
+
+
+.imageContainer img {
+    width: 900px;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}

@@ -1,0 +1,217 @@
+.inicio {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+/* div com foto e nome */
+
+.apresent {
+    margin-top: 4.375rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.esquerdo {
+    padding: 12px;
+}
+
+.esquerdo img {
+    display: block;
+    width: 200px;
+    margin-right: 50px;
+}
+
+.direito {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.direito h1 {
+    font-size: 3rem;
+    color: rgb(71, 68, 68);
+}
+
+.direito .escrever {
+    font-size: 2.5rem;
+    font-style: italic;
+    color: rgb(63, 60, 60);
+}
+
+/* div com texto  */
+
+/*filete*/
+
+.filete {
+    color: rgb(71, 68, 68);
+    display: block;
+    width: 500px;
+
+    margin: 70px auto;
+}
+
+/*filete*/
+
+.skills {
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.skills h1 {
+    font-weight: 800;
+    color: rgb(71, 68, 68);
+}
+
+.skillsContainer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 20px 10px;
+    width: 800px;
+}
+
+.skillsContainer h2 {
+    color: rgb(63, 60, 60);
+    font-weight: 600;
+}
+
+/*software*/
+
+.software {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.photoshop {
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.icon img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.estrelas {
+    display: flex;
+}
+
+
+.estrelas img {
+    width: 25px;
+    height: 25px;
+    margin: 4px;
+}
+
+/* ------------------------educação----------------------------------- */
+
+.educacao {
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.educacao h1 {
+    font-weight: 800;
+    color: rgb(71, 68, 68);
+}
+
+.educContainer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 20px 10px;
+    width: 400px;
+}
+
+.licenc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.licenc img {
+    margin-top: 40px;
+    width: 50px;
+    height: 50px;
+}
+
+.mestrado {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mestrado img {
+    margin-top: 40px;
+    width: 50px;
+    height: 50px;
+}
+
+/* -------------------texto--------------- */
+
+
+.texto {
+    text-align: center;
+    line-height: 1.6;
+    width: 60%;
+}
+
+
+/* --------------------- Media queries ------------------- */
+
+@media only screen and (max-width:1196px) {
+
+    .apresent {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .skillsContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width:816px) {
+    .direito h1 {
+        font-size: 2rem;
+    }
+
+    .direito .escrever {
+        font-size: 1.5rem;
+    }
+
+    .software {
+        margin-top: 50px;
+    }
+
+    .educContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}

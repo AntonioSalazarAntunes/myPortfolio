@@ -1,0 +1,14 @@
+.App {
+  width: 100vw;
+  height: 100hw;
+  background-color: #f6f6f8;
+  display: grid;
+ 
+  
+}
+
+.App h1 {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
