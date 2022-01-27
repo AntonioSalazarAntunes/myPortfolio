@@ -116,54 +116,12 @@
     margin: 4px;
 }
 
-/* ------------------------educação----------------------------------- */
-
-.educacao {
-    display: flex;
-    width: 70%;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.bandeira {
+    width: 30px;
+    height: auto;
 }
 
-.educacao h1 {
-    font-weight: 800;
-    color: rgb(71, 68, 68);
-}
 
-.educContainer {
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    margin: 20px 10px;
-    width: 400px;
-}
-
-.licenc {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.licenc img {
-    margin-top: 40px;
-    width: 50px;
-    height: 50px;
-}
-
-.mestrado {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.mestrado img {
-    margin-top: 40px;
-    width: 50px;
-    height: 50px;
-}
 
 /* -------------------texto--------------- */
 
@@ -179,6 +137,13 @@
 
 @media only screen and (max-width:1196px) {
 
+
+    .skills {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     .apresent {
         display: flex;
         flex-direction: column;
@@ -212,6 +177,23 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+}
+
+@media only screen and (max-width:816px) {
+    .skills {
+        
+    }
+
+    .filete {
+        width: 250px;
+    }
+    
+    .timeline .title {
+        width: 150px;
+        margin: auto;
+        display: flex;
     }
 
 }

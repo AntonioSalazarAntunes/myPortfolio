@@ -1,4 +1,5 @@
 {
+  "homepage": "https://AntonioSalazarAntunes.github.io/myPortfolio",
   "name": "react_params",
   "version": "0.1.0",
   "private": false,
@@ -11,11 +12,14 @@
     "react-image-magnify": "^2.7.4",
     "react-router-dom": "^6.0.2",
     "react-scripts": "4.0.3",
+    "react-vertical-timeline-component": "^3.5.2",
     "simple-react-lightbox": "^3.6.9-0",
     "typewriter-effect": "^2.18.2",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

@@ -20,8 +20,12 @@
     justify-content: center;
 }
 
-.redesSociais img {
-    margin: 5px;
-    height: 30px;
+.fa {
+    padding: 5px;
+    font-size: 25px;
     width: 30px;
-}
+    text-align: center;
+    text-decoration: none;
+    background: none;
+    color: white;
+  }

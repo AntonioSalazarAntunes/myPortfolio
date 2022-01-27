@@ -4,6 +4,7 @@ import fotoPerfil from "../../../foto.png";
 import Typewriter from "typewriter-effect";
 import IconSoftware from './IconSoftware';
 import { getSoftware, getCode, getLanguage } from './data'
+import Timeline from "./Timeline/Timeline";
 
 
 function Inicio() {
@@ -11,6 +12,8 @@ function Inicio() {
     let soft = getSoftware();
     let codigo = getCode();
     let idioma = getLanguage();
+
+
     return (
 
         <div className="inicio">
@@ -93,35 +96,27 @@ function Inicio() {
             </div>
             {/* ---------------------------------------------------------- */}
             <hr className="filete" />
-            <div className="educacao">
-                <h1>educação</h1>
-                <div className="educContainer">
-                    <div className="licenc">
-                        <img src="https://img.icons8.com/ios-glyphs/50/000000/education.png" alt="iconlicen" />
-                        <h3>Licenciatura</h3>
-                        <p>Design Comunicação <br /> Produção Audiovisual</p>
-                    </div>
-                    <div className="mestrado">
-                        <img src="https://img.icons8.com/ios-glyphs/50/000000/education.png" alt="iconmestr" />
-                        <h3>Mestrado</h3>
-                        <p>Design Gráfico</p>
-                    </div>
-                </div>
-            </div>
-             {/* ---------------------------------------------------------- */}
-             <hr className="filete" />
-             <div className="texto">
-                <p>Sou Designer de Comunicação nas vertentes Web e Gráfico.
+            <Timeline/>
+           
+
+
+
+            {/* ---------------------------------------------------------- */}
+            <hr className="filete" />
+            
+    
+            <div className="texto">
+                <p>Sou <b> Designer de Comunicação </b> nas vertentes <b> Web e Gráfico</b>.
                     <br />
                     Sou meticuloso, responsável, organizado e acima de tudo, tenho uma paixão por tudo o que é visual.
                     <br />
-                    Ultimamente, tenho vindo a desenvolver valências na aprendizagem de algumas linguagens como HTML, CSS e Javascript, as quais creio serem indispensáveis nesta área.
+                    Ultimamente, tenho vindo a desenvolver valências na aprendizagem de algumas linguagens como <b> HTML, CSS e Javascript </b>, as quais creio serem indispensáveis nesta área.
                     <br />
-                    Sou entusiasta por música, cinema e fascinado pelo mundo à nossa volta, o que me levou a já ter tido algumas experiências internacionais em Espanha e na Roménia.
+                    Sou entusiasta por <b> música, cinema </b> e fascinado pelo mundo à nossa volta, o que me levou a já ter tido algumas experiências internacionais em <b> Espanha </b> e na <b> Roménia </b>.
                     <br />
-                    Esses episódios serviram para exponenciar o meu interesse em geografia, geopolítica e linguística.
+                    Esses episódios serviram para exponenciar o meu interesse em <b> geografia, geopolítica e linguística </b>.
                 </p>
-            </div> 
+            </div>
         </div>
     )
 }
